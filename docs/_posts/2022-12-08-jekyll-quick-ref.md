@@ -1,9 +1,6 @@
 
 #Jekyll Markdown Quick Reference
 
-[Resource:](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
-
-
 ####Write in simply awesome `markdown`
 
 ```markdown
@@ -138,3 +135,5 @@ Finally, horizontal lines
  
 ----
 ****
+
+[Resource](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
