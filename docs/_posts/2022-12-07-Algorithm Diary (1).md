@@ -5,7 +5,7 @@ date: 2022-12-07 17:28:00 -0000
 categories: CATEGORY-1 CATEGORY-2
 ---
 ## 704. binary-search 
-**Question:给定一个`n`个元素的有序的整型数组'nums'和一个目标值`target`,写一个函数搜索`nums`中的`target`,如果目标值存在返回下标，否则返回`-1`。
+**Question:给定一个有`n`个元素的有序的整型数组`nums`和一个目标值`target`,写一个函数搜索`nums`中的`target`,如果目标值存在返回下标，否则返回`-1`。
 
 ### Gneral Thinking:
 
@@ -30,4 +30,36 @@ categories: CATEGORY-1 CATEGORY-2
         }
         return -1;
     }
+```
+
+## 27. remove element 
+**Question:给定一个数组'nums'和一个目标值`val`,原地移除所有数值等于val的元素，并返回移除后数组的新长度。要求空间复杂度为O(1)
+
+### Gneral Thinking:
+
+该题可以使用相向双指针，一个指针`left`从左往右遍历，另一个指针`right`从右往左。循环遍历的条件为while(left <= right),当指针相遇时，即`right == left`时退出循环。在遍历数组时，若左侧遍历到元素`nums[left]`等于val，此时，循环遍历右侧指针，直到`right`位置上的值不等于`val`时，交换两个位置上的值,再进行一次`right--`并判两个指针是否相遇。需要注意的是条件的判断，在处理完`nums[left] == val`这个条件之后不需要`left++`，因为在该位置上已经是一个新的元素，否则，在临近边界的时候，容易出现问题。
+
+##Solution: 
+```
+    public int removeElement(int[] nums, int val) {
+        int left = 0, right = nums.length - 1; 
+        while(right >= 0 && nums[right] == val){
+            right--;
+        }
+        while(left <= right){
+            if(nums[left] == val){
+                if(nums[right] == val){
+                    right--;
+                }else{
+                    int tmp = nums[left];
+                    nums[left] = nums[right];
+                    nums[right] = tmp; 
+                }
+            }else{
+                left ++;
+            }
+        }
+        return left;
+    }
+
 ```
