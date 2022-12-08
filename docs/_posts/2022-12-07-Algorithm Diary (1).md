@@ -5,7 +5,7 @@ date: 2022-12-07 17:28:00 -0000
 categories: CATEGORY-1 CATEGORY-2
 ---
 ## 704. binary-search 
-** Question:给定一个有`n`个元素的有序的整型数组`nums`和一个目标值`target`,写一个函数搜索`nums`中的`target`,如果目标值存在返回下标，否则返回`-1`。
+**Question:给定一个有`n`个元素的有序的整型数组`nums`和一个目标值`target`,写一个函数搜索`nums`中的`target`,如果目标值存在返回下标，否则返回`-1`。**
 
 ### Gneral Thinking:
 
@@ -33,7 +33,7 @@ categories: CATEGORY-1 CATEGORY-2
 ```
 
 ## 27. remove element 
-** Question:给定一个数组'nums'和一个目标值`val`,原地移除所有数值等于val的元素，并返回移除后数组的新长度。要求空间复杂度为O(1)
+**Question:给定一个数组'nums'和一个目标值`val`,原地移除所有数值等于val的元素，并返回移除后数组的新长度。要求空间复杂度为O(1)**
 
 ### Gneral Thinking:
 
