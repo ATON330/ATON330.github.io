@@ -54,4 +54,3 @@ Finally, horizontal lines
 
 ----
 ****
-[Resource](https://gist.github.com/roachhd/779fa77e9b90fe945b0c)
