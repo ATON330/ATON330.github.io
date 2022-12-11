@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Markdown Style Guide
+date: 2022-12-01 17:28:00 -0000
+categories: CATEGORY-1 CATEGORY-2
 ---
 
 This is a demo of all styled elements in Jekyll Now.
