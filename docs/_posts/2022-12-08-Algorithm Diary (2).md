@@ -31,7 +31,7 @@ categories: CATEGORY-1 CATEGORY-2
         return res;
     }
 ```
-## 209. 长度最小的子数组
+## 209. minimum size subarray sum 
 **Question:给定一个含有`n`个正整数的数组和一个正整数`s`，找出该数组中满足` 和>=s`的长度最小的连续子数组，并返回其长度。如果不存在，返回0** 
  
 ### Gneral Thinking:
