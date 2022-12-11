@@ -44,8 +44,8 @@ categories: CATEGORY-1 CATEGORY-2
     ListNode(){}
     ListNode(int val) {
         this.val=val;
-    }
-}
+    	}
+	}
 class MyLinkedList {
     //size存储链表元素的个数
     int size;
@@ -121,6 +121,7 @@ class MyLinkedList {
     }
 }
 ```
+
 ## 206. Reverse linkedlist
 **Question:反转一个给定链表。**
 
