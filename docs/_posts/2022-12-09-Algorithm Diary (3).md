@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "demo"
-date: 2022-12-01 17:28:00 -0000
+title: "Algorithm Diary (3)"
+date: 2022-12-09 17:28:00 -0000
 categories: CATEGORY-1 CATEGORY-2
 ---
 ## 203.Remove linkedlist elements
