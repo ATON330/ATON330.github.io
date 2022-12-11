@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "demo"
+title: "Algorithm Diary (2)"
 date: 2022-12-08 17:28:00 -0000
 categories: CATEGORY-1 CATEGORY-2
 ---
